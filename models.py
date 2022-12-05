@@ -38,7 +38,7 @@ from sklearn.feature_selection.univariate_selection import SelectKBest, f_regres
 
 from google.colab import drive
 drive.mount('/content/drive')
-os.chdir('/content/drive/My Drive/Colab Notebooks/MercariCS')
+os.chdir('/content/drive/My Drive/Colab Notebooks/mydata')
 
 X_train = scipy.sparse.load_npz("train_final.npz")
 y_train = np.load('y_train.npy')
